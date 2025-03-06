@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Input & Button Styling */
+.input-group {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#addTaskBtn {
+    font-weight: bold;
+}
+
+/* Task List */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    background: white;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    color: gray;
+    background: lightgray;
+}
+
+/* Buttons */
+.edit-btn {
+    background: gold;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.edit-btn:hover {
+    background: goldenrod;
+}
+
+.delete-btn {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+/* Apply strikethrough effect for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
